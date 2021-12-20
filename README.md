@@ -53,7 +53,7 @@ print(x)
 ## Output:
 ![lu decomposition](https://github.com/KathirvelAIDS/LU-Decomposition/blob/main/kathir.png?raw=true)
 
-![lu decomposition](https://github.com/KathirvelAIDS/LU-Decomposition/blob/main/kathir.png?raw=true)
+![lu decomposition](https://github.com/KathirvelAIDS/LU-Decomposition/blob/main/kathir%202.png?raw=true)
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
 
