@@ -17,13 +17,41 @@ To write a program to find the LU Decomposition of a matrix.
 ```
 /*
 Program to find the LU Decomposition of a matrix.
-Developed by: 
-RegisterNumber: 
+Developed by:kathirvel.A 
+RegisterNumber: 210023662
 */
 ```
+~~~
+
+import numpy as np
+import scipy
+from scipy.linalg import lu
+A =eval(input())
+P,L,U=lu(A)
+print(L)
+print(U)
+~~~
+
+```
+/*
+Program to find the LU Decomposition of a matrix.
+Developed by: kathirvel.A
+RegisterNumber: 21002362
+*/
+```
+~~~
+import numpy as np
+import numpy as np
+from scipy.linalg import lu_factor,lu_solve
+A =eval(input())
+B =eval(input())
+lu,piv= lu_factor(A)
+x= lu_solve((lu,piv),B)
+print(x)
+~~~
 
 ## Output:
-![lu decomposition]()
+![lu decomposition](kathir.png)
 
 
 ## Result:
